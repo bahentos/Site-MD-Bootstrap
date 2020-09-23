@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,16 +19,77 @@
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-  <!-- Start your project here-->  
-  <div style="height: 100vh">
-    <div class="flex-center flex-column">
-      <h1 class="text-hide animated fadeIn mb-4" style="background-image: url('https://mdbootstrap.com/img/logo/mdb-transparent-250px.png'); width: 250px; height: 90px;">MDBootstrap</h1>
-      <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
-      <p class="animated fadeIn text-muted">MDB Team</p>
+  <!-- Start your project here-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-targt="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <ul class="navbar-nav mr-auto smooth-scroll">
+            <li class="nav-item">
+              <a href="#intro" class="nav-link waves-effect waves-light">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#best-feathure" class="nav-link waves-effect waves-light">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#examples" class="nav-link waves-effect waves-light">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link waves-effect waves-light">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link waves-effect waves-light">Support</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect waves-light">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect waves-light">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect waves-light">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="intro" class="view">
+      <div class="mask rgba-black-strong">
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-10">
+              <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
+                First Material Bootstrap
+              </h2>
+              <hr class="hr-light">
+              <h4 class="white-text my-4">
+                This part of the tutorial focus on a data table component that allows us to present our data interactive way.
+              </h4>
+              <button class="btn btn-outline-white waves-effect waves-light">
+                Read More <i class="fa fa-book"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </header>
   <!-- End your project here-->
 
   <!-- jQuery -->
@@ -42,4 +104,5 @@
   <script type="text/javascript"></script>
 
 </body>
+
 </html>

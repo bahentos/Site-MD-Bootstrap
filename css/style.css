@@ -4,4 +4,6 @@ html,body,header, #intro {
 
 #intro{
     background: url("/img/Fon/pexels-adrien-olichon-2387793.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
 }
